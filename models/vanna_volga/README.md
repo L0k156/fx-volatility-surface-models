@@ -1,11 +1,11 @@
 # Vanna-Volga Smile Construction — EUR/GBP
 
 Implementation of the Vanna-Volga methodology following 
-Castagna & Mercurio (2007) applied to FX market data.
+Castagna & Mercurio (2007) applied to FX data.
 
 ## What This Notebook Does
 
-1. Loads EUR/GBP market data — ATM, 25Δ and 10Δ RR and SSM quotes
+1. Loads EUR/GBP data — ATM, 25Δ and 10Δ RR and SSM quotes
 2. Bootstraps EUR ESTR and GBP SONIA discount curves via PCHIP interpolation
 3. Constructs the three-pillar VV smile across 25 tenors (ON to 25Y)
 4. Validates out-of-sample against 10Δ market quotes
@@ -20,7 +20,7 @@ Castagna & Mercurio (2007) applied to FX market data.
 ## Key Implementation Decisions
 
 **Exact VV inversion vs approximations**
-Uses full numerical inversion of the VV price formula (Eq. 7) rather 
+Uses full numerical inversion of the VVprice formula (Eq. 7) rather 
 than the parabolic approximations (Eq. 11, 12). The approximations 
 are inadmissible as pricing tools due to Lee moment formula violations.
 
