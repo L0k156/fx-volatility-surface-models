@@ -23,6 +23,10 @@ pycache/
 .env
 .python-version
 
+--- Claude Code ---
+
+CLAUDE.md
+
 --- Data/Output (Safety) ---
 
 To ignore files inside folders but keep the folders themselves:
