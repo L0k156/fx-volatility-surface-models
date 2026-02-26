@@ -1,17 +1,38 @@
-# Mac
+--- System Files ---
+
 .DS_Store
 **/.DS_Store
+Thumbs.db
 
-# Jupyter
+--- Python/uv specific ---
+
+.venv/
+**/.venv/
+pycache/
+**/pycache/
+*.py[cod]
+*$py.class
+
+--- Jupyter specific ---
+
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
 
-# Python
-__pycache__/
-*.pyc
+--- Environment/Secret specific ---
 
-# Data
-data/
+.env
+.python-version
 
-# Excel temp files
+--- Data/Output (Safety) ---
+
+To ignore files inside folders but keep the folders themselves:
+
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+Excel temporary files
+
 ~$*.xlsx
+**/~$*.xlsx
