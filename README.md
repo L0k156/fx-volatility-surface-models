@@ -24,8 +24,6 @@ applied to EUR/GBP market data (30 January 2026).
 | FX market use | Standard vanilla | Common | Growing | Less common |
 
 ## Data
-Market data not included in this repository (proprietary).
-To run the notebooks, place the following files in the `data/` folder:
 - `FX data.xlsx` — EUR/GBP vol surface quotes (ATM, RR, SSM across tenors)
 - `discount_curves.xlsx` — EUR ESTR and GBP SONIA zero coupon curves
 
