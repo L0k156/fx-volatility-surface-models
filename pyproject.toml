@@ -1,7 +1,7 @@
 [project]
 name = "fx-volatility-surface-models"
 version = "0.1.0"
-description = "Add your description here"
+description = "FX volatility surface models (Vanna-Volga, Reiswich-Wystup) applied to EUR/GBP options"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
