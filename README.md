@@ -8,7 +8,7 @@ applied to EUR/GBP market data (30 January 2026).
 | Model | Status | Description |
 |---|---|---|
 | Vanna-Volga | ✅ Complete | Castagna & Mercurio (2007) |
-| Reiswich & Wystup | 🔄 In progress | FX-convention-aware VV refinement |
+| Reiswich & Wystup | ✅ Complete/Finalizing| Reiswich & Wystup (2012) |
 | SABR | 🔄 In progress | Hagan et al. (2002) |
 | SSVI | 🔄 In progress | Gatheral & Jacquier (2014) |
 | Heston | 🔄 In progress | Heston (1993) |
